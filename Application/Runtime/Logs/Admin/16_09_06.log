@@ -1,0 +1,1252 @@
+[ 2016-09-06T00:01:41+08:00 ] ::1 /easyNote/index.php/admin/admin/getAdmin?admin_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-06T00:02:26+08:00 ] ::1 /easyNote/index.php/admin/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_number="aaaaaa" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-06T00:04:24+08:00 ] ::1 /easyNote/index.php/admin/admin/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+SQL: SELECT * FROM `en_admin` WHERE `admin_number` = 'aaaaaabbb' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-06T00:04:27+08:00 ] ::1 /easyNote/index.php/admin/admin/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+SQL: SELECT * FROM `en_admin` WHERE `admin_number` = 'aaaaaabbbb' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: INSERT INTO `en_admin` (`admin_number`,`admin_password`,`admin_name`) VALUES ('aaaaaabbbb','64e5fe0eece9fd3ae9b1a7690c86ad8a','aaaaaa') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=10 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-06T00:14:33+08:00 ] ::1 /easyNote/index.php/admin/admin/editAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T00:15:22+08:00 ] ::1 /easyNote/index.php/admin/admin/editAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T00:16:04+08:00 ] ::1 /easyNote/index.php/admin/admin/editAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: UPDATE `en_admin` SET `admin_number`='aaaaaabbbb',`admin_password`='aaaaaa',`admin_name`='55555' WHERE `admin_id` = 10 [ RunTime:0.1470s ]
+
+[ 2016-09-06T00:16:38+08:00 ] ::1 /easyNote/index.php/admin/admin/editAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: UPDATE `en_admin` SET `admin_number`='aaaaaabbbb',`admin_password`='aaaaaa',`admin_name`='55555' WHERE `admin_id` = 10 [ RunTime:0.0010s ]
+
+[ 2016-09-06T00:17:21+08:00 ] ::1 /easyNote/index.php/admin/admin/editAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: UPDATE `en_admin` SET `admin_number`='aaaaaabbbb',`admin_password`='aaaaaa',`admin_name`='55555' WHERE `admin_id` = 10 [ RunTime:0.0010s ]
+
+[ 2016-09-06T00:19:01+08:00 ] ::1 /easyNote/index.php/admin/admin/editAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: UPDATE `en_admin` SET `admin_number`='aaaaaabbbb',`admin_password`='aaaaaa',`admin_name`='55555' WHERE `admin_id` = 10 [ RunTime:0.0010s ]
+
+[ 2016-09-06T00:19:24+08:00 ] ::1 /easyNote/index.php/admin/admin/editAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: UPDATE `en_admin` SET `admin_number`='aaaaaabbbb',`admin_password`='aaaaaa',`admin_name`='555555' WHERE `admin_id` = 10 [ RunTime:0.0000s ]
+
+[ 2016-09-06T00:19:56+08:00 ] ::1 /easyNote/index.php/admin/admin/editAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: UPDATE `en_admin` SET `admin_number`='aaaaaabbbb',`admin_password`='aaaaaa',`admin_name`='555555' WHERE `admin_id` = 10 [ RunTime:0.0000s ]
+
+[ 2016-09-06T00:19:58+08:00 ] ::1 /easyNote/index.php/admin/admin/editAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: UPDATE `en_admin` SET `admin_number`='aaaaaabbbb',`admin_password`='aaaaaa',`admin_name`='555555' WHERE `admin_id` = 10 [ RunTime:0.0010s ]
+
+[ 2016-09-06T00:20:10+08:00 ] ::1 /easyNote/index.php/admin/admin/editAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: UPDATE `en_admin` SET `admin_number`='aaaaaabbbb',`admin_password`='aaaaaa',`admin_name`='5555552' WHERE `admin_id` = 10 [ RunTime:0.0010s ]
+
+[ 2016-09-06T00:20:14+08:00 ] ::1 /easyNote/index.php/admin/admin/editAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: UPDATE `en_admin` SET `admin_number`='aaaaaabbbb',`admin_password`='aaaaaa',`admin_name`='5555552' WHERE `admin_id` = 10 [ RunTime:0.0010s ]
+
+[ 2016-09-06T00:22:22+08:00 ] ::1 /easyNote/index.php/admin/admin/editAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: UPDATE `en_admin` SET `admin_number`='aaaaaabbbb',`admin_password`='aaaaaa',`admin_name`='55555521' WHERE `admin_id` = 10 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=10 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-06T11:18:38+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T11:20:05+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T11:20:53+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T11:23:46+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T11:24:13+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T11:24:15+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T11:24:24+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T11:25:30+08:00 ] ::1 /easyNote/index.php/admin/admin/getAdmin?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-06T11:25:49+08:00 ] ::1 /easyNote/index.php/admin/admin/getAdmin?admin_id=sss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T11:27:09+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=sss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T11:27:14+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:getGroup方法不存在！
+
+[ 2016-09-06T11:27:39+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:getGroup方法不存在！
+
+[ 2016-09-06T11:28:41+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:getGroup方法不存在！
+
+[ 2016-09-06T11:30:26+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+
+[ 2016-09-06T11:32:03+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+ERR: Think\Model:getGroup方法不存在！
+
+[ 2016-09-06T11:34:47+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+ERR: Think\Model:getGroup方法不存在！
+
+[ 2016-09-06T11:34:48+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:getGroup方法不存在！
+
+[ 2016-09-06T11:41:08+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:getGroups方法不存在！
+
+[ 2016-09-06T11:41:39+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:getGroups方法不存在！
+
+[ 2016-09-06T11:43:11+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+ERR: Think\Model:getGroupsMsg方法不存在！
+
+[ 2016-09-06T11:47:01+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:getGroupsMsg方法不存在！
+
+[ 2016-09-06T11:49:22+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=15 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:getGroupsMsg方法不存在！
+
+[ 2016-09-06T11:49:24+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=15 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:getGroupsMsg方法不存在！
+
+[ 2016-09-06T11:50:25+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=15 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=15 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-06T11:51:32+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=15 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-06T11:51:36+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-06T11:51:54+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:getGroupsMsg方法不存在！
+
+[ 2016-09-06T11:55:04+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+
+[ 2016-09-06T11:56:26+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:getGroupsMsg方法不存在！
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php:17) D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php:17) D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-09-06T11:59:00+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+ERR: Think\Model:GroupsMsg方法不存在！
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php:17) D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php:17) D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-09-06T14:38:26+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:GroupsMsg方法不存在！
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php:17) D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php:17) D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-09-06T14:43:48+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+ERR: 1146:Table 'easynote.en_common\_group' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `en_common\_group`
+ERR: 1146:Table 'easynote.en_common\_group' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `en_common\_group`
+
+[ 2016-09-06T14:44:09+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:GroupsMsg方法不存在！
+
+[ 2016-09-06T14:44:33+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Common\Model\GroupModel
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:GroupsMsg方法不存在！
+
+[ 2016-09-06T14:44:34+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\GroupModel
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+ERR: Think\Model:GroupsMsg方法不存在！
+
+[ 2016-09-06T14:44:38+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Common\Model\GroupModel
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:GroupsMsg方法不存在！
+
+[ 2016-09-06T14:45:35+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+ERR: Think\Model:GroupsMsg方法不存在！
+
+[ 2016-09-06T14:45:36+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+ERR: Think\Model:GroupsMsg方法不存在！
+
+[ 2016-09-06T14:46:03+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:GroupsMsg方法不存在！
+
+[ 2016-09-06T14:46:05+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:GroupsMsg方法不存在！
+
+[ 2016-09-06T14:46:23+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:GroupsMsg方法不存在！
+
+[ 2016-09-06T15:12:32+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:GroupsMsg方法不存在！
+
+[ 2016-09-06T15:14:01+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+ERR: Think\Model:GroupsMsg方法不存在！
+
+[ 2016-09-06T15:14:03+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:GroupsMsg方法不存在！
+
+[ 2016-09-06T15:14:04+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: Think\Model:GroupsMsg方法不存在！
+
+[ 2016-09-06T15:18:19+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getgroup
+
+[ 2016-09-06T15:19:22+08:00 ] ::1 /easyNote/index.php/admin/group/getgroups?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+ERR: Think\Model:GroupsMsg方法不存在！
+
+[ 2016-09-06T15:22:45+08:00 ] ::1 /easyNote/index.php/admin/group/getgroups?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-06T15:32:11+08:00 ] ::1 /easyNote/index.php/admin/group/getgroups?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-06T16:01:55+08:00 ] ::1 /easyNote/index.php/admin/group/getgroups?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+
+[ 2016-09-06T16:18:56+08:00 ] ::1 /easyNote/index.php/admin/group/getgroups?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant DEFAULT_GROUP - assumed 'DEFAULT_GROUP' D:\PHP\wamp\www\easyNote\Application\Common\Model\GroupModel.class.php 第 9 行.
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array D:\PHP\wamp\www\easyNote\Application\Common\Model\GroupModel.class.php 第 12 行.
+
+[ 2016-09-06T16:19:31+08:00 ] ::1 /easyNote/index.php/admin/group/getgroups?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_GROUP - assumed 'DEFAULT_GROUP' D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant DEFAULT_GROUP - assumed 'DEFAULT_GROUP' D:\PHP\wamp\www\easyNote\Application\Common\Model\GroupModel.class.php 第 9 行.
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array D:\PHP\wamp\www\easyNote\Application\Common\Model\GroupModel.class.php 第 12 行.
+
+[ 2016-09-06T16:20:06+08:00 ] ::1 /easyNote/index.php/admin/group/getgroups?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant DEFAULT_GROUP - assumed 'DEFAULT_GROUP' D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+
+[ 2016-09-06T16:20:42+08:00 ] ::1 /easyNote/index.php/admin/group/getgroups?admin_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=2 )  [ RunTime:0.0000s ]
+
+[ 2016-09-06T16:22:21+08:00 ] ::1 /easyNote/index.php/admin/group/getgroups?admin_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=2 )  [ RunTime:0.0000s ]
+
+[ 2016-09-06T16:22:49+08:00 ] ::1 /easyNote/index.php/admin/group/getgroups?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+
+[ 2016-09-06T16:23:34+08:00 ] ::1 /easyNote/index.php/admin/admin/getAdmin?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-06T16:24:10+08:00 ] ::1 /easyNote/index.php/admin/admin/getAdmin?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-06T16:25:30+08:00 ] ::1 /easyNote/index.php/admin/group/getgroup?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getgroup
+
+[ 2016-09-06T16:25:50+08:00 ] ::1 /easyNote/index.php/admin/group/groupsMsg?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:groupsMsg
+
+[ 2016-09-06T16:26:23+08:00 ] ::1 /easyNote/index.php/admin/group/getGroups?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+
+[ 2016-09-06T16:55:30+08:00 ] ::1 /easyNote/index.php/admin/admin/getAdmin?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-06T16:56:22+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups?admin_id=1&group_name=%20%20555555
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T16:56:50+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups?admin_id=1&group_name=%20%20%205555
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T16:57:04+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups?admin_id=1&group_name=555
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-06T16:57:26+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups?admin_id=1&group_name=555
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T16:57:31+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups?admin_id=1&group_name=%20%20%20555
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T17:00:59+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-06T17:01:41+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-06T17:01:46+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T17:02:39+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T17:02:52+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T17:02:53+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T17:04:43+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T17:06:12+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups?admin_id=1&group_name=555
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T17:09:25+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T17:09:40+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0040s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: group D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php 第 36 行.
+NOTIC: [8] Undefined index: data D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php 第 36 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry 'MY' for key 'group_name'
+ [ SQL语句 ] : INSERT INTO `en_group` (`admin_id`,`group_name`) VALUES ('1','MY')
+ERR: 1062:Duplicate entry 'MY' for key 'group_name'
+ [ SQL语句 ] : INSERT INTO `en_group` (`admin_id`,`group_name`) VALUES ('1','MY')
+
+[ 2016-09-06T17:10:34+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: data D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php 第 36 行.
+
+[ 2016-09-06T17:44:41+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+
+[ 2016-09-06T17:45:12+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: group D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry 'MY' for key 'group_name'
+ [ SQL语句 ] : INSERT INTO `en_group` (`admin_id`,`group_name`) VALUES ('1','MY')
+ERR: 1062:Duplicate entry 'MY' for key 'group_name'
+ [ SQL语句 ] : INSERT INTO `en_group` (`admin_id`,`group_name`) VALUES ('1','MY')
+
+[ 2016-09-06T17:45:57+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+
+[ 2016-09-06T17:46:17+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0040s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+
+[ 2016-09-06T17:48:23+08:00 ] ::1 /easyNote/index.php/admin/group/addgroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `en_group` (`admin_id`,`group_name`) VALUES ('1','MYLL') [ RunTime:0.0880s ]
+
+[ 2016-09-06T23:16:53+08:00 ] ::1 /easyNote/index.php/admin/group/dropGroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:dropGroup
+
+[ 2016-09-06T23:18:32+08:00 ] ::1 /easyNote/index.php/admin/group/dropGroup?admin_id=1&groupname=MYLL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: admin_name D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php 第 66 行.
+
+[ 2016-09-06T23:18:50+08:00 ] ::1 /easyNote/index.php/admin/group/dropGroup?admin_id=s&groupname=MYLL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-06T23:19:05+08:00 ] ::1 /easyNote/index.php/admin/group/dropGroup?admin_id=1&groupname=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: admin_name D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php 第 66 行.
+
+[ 2016-09-06T23:20:36+08:00 ] ::1 /easyNote/index.php/admin/group/dropGroup?admin_id=1&groupname=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T23:21:36+08:00 ] ::1 /easyNote/index.php/admin/group/dropGroup?admin_id=1&group_name=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T23:21:51+08:00 ] ::1 /easyNote/index.php/admin/group/dropGroup?admin_id=1&group_name=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-06T23:24:41+08:00 ] ::1 /easyNote/index.php/admin/group/dropGroup?admin_id=1&group_name=MY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: admin_name D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php 第 66 行.
+
+[ 2016-09-06T23:26:01+08:00 ] ::1 /easyNote/index.php/admin/group/dropGroup?admin_id=1&group_name=MY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: admin_name D:\PHP\wamp\www\easyNote\Application\Admin\Controller\GroupController.class.php 第 66 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group_name="" )' at line 1
+ [ SQL语句 ] : DELETE FROM `en_group` WHERE ( admin_id=1 group_name="" )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group_name="" )' at line 1
+ [ SQL语句 ] : DELETE FROM `en_group` WHERE ( admin_id=1 group_name="" )
+
+[ 2016-09-06T23:26:58+08:00 ] ::1 /easyNote/index.php/admin/group/dropGroup?admin_id=1&group_name=MY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+
+[ 2016-09-06T23:27:31+08:00 ] ::1 /easyNote/index.php/admin/group/dropGroup?admin_id=1&group_name=MY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group_name="MY" )' at line 1
+ [ SQL语句 ] : DELETE FROM `en_group` WHERE ( admin_id=1 group_name="MY" )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group_name="MY" )' at line 1
+ [ SQL语句 ] : DELETE FROM `en_group` WHERE ( admin_id=1 group_name="MY" )
+
+[ 2016-09-06T23:28:10+08:00 ] ::1 /easyNote/index.php/admin/group/dropGroup?admin_id=1&group_name=MY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group_name="MY" )' at line 1
+ [ SQL语句 ] : DELETE FROM `en_group` WHERE ( admin_id=1and group_name="MY" )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group_name="MY" )' at line 1
+ [ SQL语句 ] : DELETE FROM `en_group` WHERE ( admin_id=1and group_name="MY" )
+
+[ 2016-09-06T23:28:17+08:00 ] ::1 /easyNote/index.php/admin/group/dropGroup?admin_id=1&group_name=MY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: DELETE FROM `en_group` WHERE ( admin_id=1 and group_name="MY" ) [ RunTime:0.0650s ]
+

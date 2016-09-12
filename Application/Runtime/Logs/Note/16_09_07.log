@@ -1,0 +1,645 @@
+[ 2016-09-07T00:02:16+08:00 ] ::1 /easyNote/index.php/note/note/getNote
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(admin_id=1 and note_group="生活杂记") AS tp_Count FROM `en_note` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-07T00:03:47+08:00 ] ::1 /easyNote/index.php/note/note/getNote
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(note_id) AS tp_Count FROM `en_note` WHERE ( admin_id=1 and note_group="生活杂记" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-07T00:04:19+08:00 ] ::1 /easyNote/index.php/note/note/getGroupscount?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(note_id) AS tp_Count FROM `en_note` WHERE ( admin_id=1 and note_group="全部笔记" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(note_id) AS tp_Count FROM `en_note` WHERE ( admin_id=1 and note_group="生活杂记" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(note_id) AS tp_Count FROM `en_note` WHERE ( admin_id=1 and note_group="心情随笔" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(note_id) AS tp_Count FROM `en_note` WHERE ( admin_id=1 and note_group="工作笔记" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(note_id) AS tp_Count FROM `en_note` WHERE ( admin_id=1 and note_group="myLove" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(note_id) AS tp_Count FROM `en_note` WHERE ( admin_id=1 and note_group="MYLL" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-07T00:05:16+08:00 ] ::1 /easyNote/index.php/note/note/getGroupscount?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(note_id) AS tp_Count FROM `en_note` WHERE ( admin_id=1 and note_group="全部笔记" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(note_id) AS tp_Count FROM `en_note` WHERE ( admin_id=1 and note_group="生活杂记" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(note_id) AS tp_Count FROM `en_note` WHERE ( admin_id=1 and note_group="心情随笔" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(note_id) AS tp_Count FROM `en_note` WHERE ( admin_id=1 and note_group="工作笔记" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(note_id) AS tp_Count FROM `en_note` WHERE ( admin_id=1 and note_group="myLove" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(note_id) AS tp_Count FROM `en_note` WHERE ( admin_id=1 and note_group="MYLL" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-07T09:28:00+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=MY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.1490s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0310s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+
+[ 2016-09-07T09:28:43+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=MYll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+
+[ 2016-09-07T09:28:49+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=MYLL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+
+[ 2016-09-07T09:32:37+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=MYLL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: amdin_id D:\PHP\wamp\www\easyNote\Application\Note\Controller\NoteController.class.php 第 48 行.
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = null AND `note_group` = 'MYLL' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-07T09:32:46+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: amdin_id D:\PHP\wamp\www\easyNote\Application\Note\Controller\NoteController.class.php 第 48 行.
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = null AND `note_group` = '全部笔记' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-07T09:32:49+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: amdin_id D:\PHP\wamp\www\easyNote\Application\Note\Controller\NoteController.class.php 第 48 行.
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = null AND `note_group` = '全部笔记' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-07T09:33:46+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: amdin_id D:\PHP\wamp\www\easyNote\Application\Note\Controller\NoteController.class.php 第 48 行.
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = null AND `note_group` = '全部笔记' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-07T09:36:31+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: amdin_id D:\PHP\wamp\www\easyNote\Application\Note\Controller\NoteController.class.php 第 48 行.
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = null AND `note_group` = '全部笔记' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-07T09:37:57+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+
+[ 2016-09-07T09:38:04+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: amdin_id D:\PHP\wamp\www\easyNote\Application\Note\Controller\NoteController.class.php 第 48 行.
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = null AND `note_group` = '全部笔记' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-07T09:38:44+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: amdin_id D:\PHP\wamp\www\easyNote\Application\Note\Controller\NoteController.class.php 第 49 行.
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = null AND `note_group` = '全部笔记' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-07T09:39:36+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: amdin_id D:\PHP\wamp\www\easyNote\Application\Note\Controller\NoteController.class.php 第 49 行.
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = null AND `note_group` = '全部笔记' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-07T09:40:31+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = 1 AND `note_group` = '全部笔记' LIMIT 1   [ RunTime:0.0110s ]
+
+[ 2016-09-07T09:42:56+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = 1 AND `note_group` = '全部笔记' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-07T09:43:11+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = 1 AND `note_group` = '全部笔记' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-07T09:44:21+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = 1 AND `note_group` = '全部笔记' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-07T10:28:26+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0090s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+
+[ 2016-09-07T10:28:38+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = 1 AND `note_group` = '全部笔记' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-07T10:30:23+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = 1 AND `note_group` = '全部笔记' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-07T10:30:24+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0040s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = 1 AND `note_group` = '全部笔记' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-07T10:30:25+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = 1 AND `note_group` = '全部笔记' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-07T10:30:26+08:00 ] ::1 /easyNote/index.php/note/note/getNote?admin_id=1&note_group=%E5%85%A8%E9%83%A8%E7%AC%94%E8%AE%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_note` WHERE `admin_id` = 1 AND `note_group` = '全部笔记' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-07T10:57:11+08:00 ] ::1 /easyNote/index.php/note/note/addnote
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-07T10:58:01+08:00 ] ::1 /easyNote/index.php/note/note/addnote?admin_id=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-07T11:00:02+08:00 ] ::1 /easyNote/index.php/note/note/addnote?admin_id=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-07T11:01:13+08:00 ] ::1 /easyNote/index.php/note/note/addnote?admin_id=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-07T11:01:32+08:00 ] ::1 /easyNote/index.php/note/note/addnote?admin_id=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-07T11:05:10+08:00 ] ::1 /easyNote/index.php/note/note/addnote?admin_id=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-07T11:05:19+08:00 ] ::1 /easyNote/index.php/note/note/addnote?admin_id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=15 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-07T11:05:45+08:00 ] ::1 /easyNote/index.php/note/note/addnote?admin_id=1&note_group=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: admin_id D:\PHP\wamp\www\easyNote\Application\Note\Controller\NoteController.class.php 第 69 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `group_name` FROM `en_group` WHERE ( admin_id= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `group_name` FROM `en_group` WHERE ( admin_id= ) 
+
+[ 2016-09-07T11:06:34+08:00 ] ::1 /easyNote/index.php/note/note/addnote?admin_id=1&note_group=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: note_group D:\PHP\wamp\www\easyNote\Application\Note\Controller\NoteController.class.php 第 73 行.
+
+[ 2016-09-07T11:07:06+08:00 ] ::1 /easyNote/index.php/note/note/addnote?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: note_group D:\PHP\wamp\www\easyNote\Application\Note\Controller\NoteController.class.php 第 73 行.
+
+[ 2016-09-07T11:07:09+08:00 ] ::1 /easyNote/index.php/note/note/addnote?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: note_group D:\PHP\wamp\www\easyNote\Application\Note\Controller\NoteController.class.php 第 73 行.
+
+[ 2016-09-07T11:07:12+08:00 ] ::1 /easyNote/index.php/note/note/addnote?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: note_group D:\PHP\wamp\www\easyNote\Application\Note\Controller\NoteController.class.php 第 73 行.
+
+[ 2016-09-07T11:07:34+08:00 ] ::1 /easyNote/index.php/note/note/addnote?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0040s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+ERR: 1364:Field 'note_title' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `en_note` (`admin_id`,`note_group`) VALUES ('1','生活杂记')
+ERR: 1364:Field 'note_title' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `en_note` (`admin_id`,`note_group`) VALUES ('1','生活杂记')
+
+[ 2016-09-07T11:07:51+08:00 ] ::1 /easyNote/index.php/note/note/addnote?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [8] Undefined index: note_title D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1310 行.
+
+[ 2016-09-07T11:08:46+08:00 ] ::1 /easyNote/index.php/note/note/addnote?admin_id=1&note_title=loveme&note_status=-2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+
+[ 2016-09-07T11:09:01+08:00 ] ::1 /easyNote/index.php/note/note/addnote?admin_id=1&note_title=loveme&note_status=-2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+
+[ 2016-09-07T11:09:07+08:00 ] ::1 /easyNote/index.php/note/note/addnote?admin_id=1&note_title=loveme&note_status=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: INSERT INTO `en_note` (`admin_id`,`note_title`,`note_status`,`note_group`) VALUES ('1','loveme','-1','生活杂记') [ RunTime:0.2030s ]
+
+[ 2016-09-07T12:31:55+08:00 ] ::1 /easyNote/index.php/note/note/addnote?note_id=3&admin_id=1&note_title=loveme&note_status=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: UPDATE `en_note` SET `admin_id`='1',`note_title`='loveme',`note_status`='1',`note_group`='生活杂记' WHERE `note_id` = 3 [ RunTime:0.4070s ]
+
+[ 2016-09-07T12:32:17+08:00 ] ::1 /easyNote/index.php/note/note/addnote?note_id=5&admin_id=1&note_title=loveme&note_status=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: UPDATE `en_note` SET `admin_id`='1',`note_title`='loveme',`note_status`='1',`note_group`='生活杂记' WHERE `note_id` = 5 [ RunTime:0.0010s ]
+
+[ 2016-09-07T12:41:33+08:00 ] ::1 /easyNote/index.php/note/note/addnote?note_id=3&admin_id=1&note_title=loveme&note_status=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: admin_id D:\PHP\wamp\www\easyNote\Application\Note\Controller\NoteController.class.php 第 63 行.
+
+[ 2016-09-07T12:42:24+08:00 ] ::1 /easyNote/index.php/note/note/addnote?note_id=3&admin_id=1&note_title=loveme&note_status=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0020s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+
+[ 2016-09-07T12:42:49+08:00 ] ::1 /easyNote/index.php/note/note/dropnote?note_id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+SQL: DELETE FROM `en_note` WHERE `note_id` = 4 [ RunTime:0.0000s ]
+
+[ 2016-09-07T12:43:04+08:00 ] ::1 /easyNote/index.php/note/note/dropnote?note_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+SQL: DELETE FROM `en_note` WHERE `note_id` = 3 [ RunTime:0.1780s ]
+

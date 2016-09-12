@@ -1,0 +1,186 @@
+[ 2016-09-12T11:04:48+08:00 ] ::1 /easyNote/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-12T11:08:00+08:00 ] ::1 /easyNote/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0936s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+NOTIC: [8] Undefined index: admin_number D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1310 行.
+
+[ 2016-09-12T11:08:31+08:00 ] ::1 /easyNote/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+SQL: SELECT * FROM `en_admin` WHERE `admin_number` = 'sssssss' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: INSERT INTO `en_admin` (`admin_number`,`admin_password`,`admin_name`) VALUES ('sssssss','a5fe61c2ea490cd59f22917550d424f2','sssssss') [ RunTime:0.4242s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=5 ) LIMIT 1   [ RunTime:0.0842s ]
+
+[ 2016-09-12T11:48:58+08:00 ] ::1 /easyNote/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+SQL: SELECT * FROM `en_admin` WHERE `admin_number` = 'ssssssss' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: INSERT INTO `en_admin` (`admin_number`,`admin_password`,`admin_name`) VALUES ('ssssssss','a5fe61c2ea490cd59f22917550d424f2','sssssss') [ RunTime:0.1290s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-12T11:52:29+08:00 ] ::1 /easyNote/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+SQL: SELECT * FROM `en_admin` WHERE `admin_number` = 'sssssssss' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: INSERT INTO `en_admin` (`admin_number`,`admin_password`,`admin_name`) VALUES ('sssssssss','a5fe61c2ea490cd59f22917550d424f2','sssssss') [ RunTime:0.2320s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=7 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-12T11:53:23+08:00 ] ::1 /easyNote/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+
+[ 2016-09-12T11:53:37+08:00 ] ::1 /easyNote/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+SQL: SELECT * FROM `en_admin` WHERE `admin_number` = 'vvvvvvv' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: INSERT INTO `en_admin` (`admin_number`,`admin_password`,`admin_name`) VALUES ('vvvvvvv','109438d928967b62a904a6e23b3e7f1c','sssssss') [ RunTime:0.1250s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-12T11:55:13+08:00 ] ::1 /easyNote/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-12T11:56:25+08:00 ] ::1 /easyNote/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+SQL: SELECT * FROM `en_admin` WHERE `admin_number` = 'vvvvvvva' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: INSERT INTO `en_admin` (`admin_number`,`admin_password`,`admin_name`) VALUES ('vvvvvvva','109438d928967b62a904a6e23b3e7f1c','sssssss') [ RunTime:0.1850s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=9 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-12T11:57:49+08:00 ] ::1 /easyNote/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+SQL: SELECT * FROM `en_admin` WHERE `admin_number` = 'vvvvvvvaa' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: INSERT INTO `en_admin` (`admin_number`,`admin_password`,`admin_name`) VALUES ('vvvvvvvaa','109438d928967b62a904a6e23b3e7f1c','sssssss') [ RunTime:0.1470s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=10 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-12T12:03:47+08:00 ] ::1 /easyNote/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+SQL: SELECT * FROM `en_admin` WHERE `admin_number` = 'vvvvvvvaa' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-12T12:03:51+08:00 ] ::1 /easyNote/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+SQL: SELECT * FROM `en_admin` WHERE `admin_number` = 'vvvvvvvaaa' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkPwd' not found or invalid function name D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1286 行.
+
+[ 2016-09-12T12:13:28+08:00 ] ::1 /easyNote/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+SQL: SELECT * FROM `en_admin` WHERE `admin_number` = 'vvvvvvvaaa' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-12T12:14:57+08:00 ] ::1 /easyNote/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+SQL: SELECT * FROM `en_admin` WHERE `admin_number` = 'vvvvvvvaaa' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-12T12:16:46+08:00 ] ::1 /easyNote/index.php/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1191 行.
+SQL: SELECT * FROM `en_admin` WHERE `admin_number` = '12345678' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\PHP\wamp\www\easyNote\ThinkPHP\Library\Think\Model.class.php 第 1133 行.
+SQL: INSERT INTO `en_admin` (`admin_number`,`admin_password`,`admin_name`) VALUES ('12345678','8892bc822abd694aad71ee464b738ab6','sssssss') [ RunTime:0.1050s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=11 ) LIMIT 1   [ RunTime:0.0010s ]
+

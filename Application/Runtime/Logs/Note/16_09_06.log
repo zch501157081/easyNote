@@ -1,0 +1,96 @@
+[ 2016-09-06T23:52:41+08:00 ] ::1 /easyNote/index.php/note/note/getGroupscount?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-06T23:52:52+08:00 ] ::1 /easyNote/index.php/note/note/getGroupscount?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0070s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0010s ]
+
+[ 2016-09-06T23:55:03+08:00 ] ::1 /easyNote/index.php/note/note/getGroupscount?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+
+[ 2016-09-06T23:55:20+08:00 ] ::1 /easyNote/index.php/note/note/getGroupscount?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0040s ]
+ERR: 1054:Unknown column 'group_name' in 'field list'
+ [ SQL语句 ] : SELECT COUNT(admin_id=1 and group_name="全部笔记") AS tp_Count FROM `en_note` LIMIT 1  
+ERR: 1054:Unknown column 'group_name' in 'field list'
+ [ SQL语句 ] : SELECT COUNT(admin_id=1 and group_name="全部笔记") AS tp_Count FROM `en_note` LIMIT 1  
+
+[ 2016-09-06T23:56:03+08:00 ] ::1 /easyNote/index.php/note/note/getGroupscount?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0040s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(admin_id=1 and note_group="全部笔记") AS tp_Count FROM `en_note` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-06T23:56:42+08:00 ] ::1 /easyNote/index.php/note/note/getGroupscount?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0040s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(admin_id=1 and note_group="全部笔记") AS tp_Count FROM `en_note` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-06T23:59:24+08:00 ] ::1 /easyNote/index.php/note/note/getGroupscount?admin_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `en_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `en_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `en_group` [ RunTime:0.0030s ]
+SQL: SELECT `group_name` FROM `en_group` WHERE ( admin_id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `en_note` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(admin_id=1 and note_group="全部笔记") AS tp_Count FROM `en_note` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(admin_id=1 and note_group="生活杂记") AS tp_Count FROM `en_note` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(admin_id=1 and note_group="心情随笔") AS tp_Count FROM `en_note` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(admin_id=1 and note_group="工作笔记") AS tp_Count FROM `en_note` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(admin_id=1 and note_group="myLove") AS tp_Count FROM `en_note` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(admin_id=1 and note_group="MYLL") AS tp_Count FROM `en_note` LIMIT 1   [ RunTime:0.0010s ]
+
